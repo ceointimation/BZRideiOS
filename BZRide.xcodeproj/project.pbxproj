@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71CB5C431D5EF49F00883F12 /* DriverRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CB5C421D5EF49F00883F12 /* DriverRegistrationViewController.swift */; };
+		71D2B0291D5DF35A004839F1 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D2B0281D5DF35A004839F1 /* LogInViewController.swift */; };
 		71D7B9181D5C992200341A3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7B9171D5C992200341A3E /* AppDelegate.swift */; };
 		71D7B91B1D5C992200341A3E /* BZRide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71D7B9191D5C992200341A3E /* BZRide.xcdatamodeld */; };
 		71D7B91D1D5C992200341A3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7B91C1D5C992200341A3E /* ViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71CB5C421D5EF49F00883F12 /* DriverRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverRegistrationViewController.swift; sourceTree = "<group>"; };
+		71D2B0281D5DF35A004839F1 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		71D7B9121D5C992200341A3E /* BZRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BZRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D7B9161D5C992200341A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71D7B9171D5C992200341A3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 				71D7B9171D5C992200341A3E /* AppDelegate.swift */,
 				71D7B91C1D5C992200341A3E /* ViewController.swift */,
 				71D7B91E1D5C992200341A3E /* Main.storyboard */,
+				71CB5C421D5EF49F00883F12 /* DriverRegistrationViewController.swift */,
+				71D2B0281D5DF35A004839F1 /* LogInViewController.swift */,
 				71D7B9211D5C992200341A3E /* Images.xcassets */,
 				71D7B9231D5C992200341A3E /* LaunchScreen.xib */,
 				71D7B9191D5C992200341A3E /* BZRide.xcdatamodeld */,
@@ -217,6 +223,8 @@
 			files = (
 				71D7B91D1D5C992200341A3E /* ViewController.swift in Sources */,
 				71D7B9181D5C992200341A3E /* AppDelegate.swift in Sources */,
+				71CB5C431D5EF49F00883F12 /* DriverRegistrationViewController.swift in Sources */,
+				71D2B0291D5DF35A004839F1 /* LogInViewController.swift in Sources */,
 				71D7B91B1D5C992200341A3E /* BZRide.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +419,7 @@
 				71D7B9361D5C992300341A3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71D7B9371D5C992300341A3E /* Build configuration list for PBXNativeTarget "BZRideTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				71D7B9391D5C992300341A3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
